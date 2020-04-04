@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="normal">#A8A878</color>
+    <color name="fire">#F08030</color>
+    <color name="fighting">#C03028</color>
+    <color name="water">#6890F0</color>
+    <color name="flying">#A890F0</color>
+    <color name="grass">#78C850</color>
+    <color name="poison">#A040A0</color>
+    <color name="electric">#F8D030</color>
+    <color name="ground">#E0C068</color>
+    <color name="psychic">#F85888</color>
+    <color name="rock">#B8A038</color>
+    <color name="ice">#98D8D8</color>
+    <color name="bug">#A8B820</color>
+    <color name="dragon">#7038F8</color>
+    <color name="ghost">#705898</color>
+    <color name="dark">#705848</color>
+    <color name="steel">#B8B8D0</color>
+    <color name="fairy">#EE99AC</color>
+
+<!--    <color name="black">#303943</color>-->
+<!--    <color name="blue">#429BED</color>-->
+<!--    <color name="brown">#B1736C</color>-->
+<!--    <color name="grey">#303943</color>-->
+<!--    <color name="indigo">#6C79DB</color>-->
+<!--    <color name="lightBlue">#58ABF6</color>-->
+<!--    <color name="lightBrown">#CA8179</color>-->
+<!--    <color name="lighterGrey">#F4F5F4</color>-->
+<!--    <color name="lightGrey">#F5F5F5</color>-->
+<!--    <color name="lightPurple">#9F5BBA</color>-->
+<!--    <color name="lightRed">#F7786B</color>-->
+<!--    <color name="lightTeal">#2CDAB1</color>-->
+<!--    <color name="lightYellow">#FFCE4B</color>-->
+<!--    <color name="purple">#7C538C</color>-->
+<!--    <color name="red">#FA6555</color>-->
+<!--    <color name="teal">#4FC1A6</color>-->
+<!--    <color name="yellow">#F6C747</color>-->
+<!--    <color name="lightPink">#FFB6C1</color>-->
+</resources>

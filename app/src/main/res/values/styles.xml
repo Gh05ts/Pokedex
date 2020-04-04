@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme1" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>   <!-- Your primary color -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>    <!-- Your dark color -->
+        <item name="colorAccent">@color/colorAccent</item>    <!-- your accent color -->
+        <item name="android:statusBarColor">@android:color/holo_red_light</item>
+    </style>
+</resources>
