@@ -9,5 +9,5 @@ Feature to add:
 * Maybe something related to moves
 * Add sounds and map it to the black button image
 
-App Demo:
+App Demo (graininess because of bad gif converter, not in app):
 ![Gif](demo.gif)
