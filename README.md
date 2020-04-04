@@ -11,3 +11,6 @@ Feature to add:
 
 App Demo (graininess because of bad gif converter, not in app):
 ![Gif](demo.gif)
+
+
+Thanks to cs50x, veekun, pokeapi. Might change sources later.
