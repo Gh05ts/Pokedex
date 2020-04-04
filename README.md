@@ -19,7 +19,7 @@ I tried to use the older pokemon series pokedex as inspiration for this project.
 
 App Demo (graininess because of bad gif converter, not in app):
 ![Gif](demo.gif)
-**currently the gif is in the repo, will move it to a different project just for blobs or some other method to fix issue later
+**currently the gif is in the repo, will move it to a different project just for blobs or some other method to fix issue later**
 
 ## License:
 Use it however you please for learning purposes, if you can somehow make money using this just tell me how atleast xD.
