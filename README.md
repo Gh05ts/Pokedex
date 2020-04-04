@@ -18,5 +18,6 @@ Feature to add:
 App Demo (graininess because of bad gif converter, not in app):
 ![Gif](demo.gif)
 
-
+License:
+Use it however you please for learning purposes, if you can somehow make money using this just tell me how atleast xD.
 Thanks to cs50x, veekun, pokeapi. Might change sources later.
