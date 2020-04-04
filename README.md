@@ -7,6 +7,7 @@ I tried to use the older pokemon series pokedex as inspiration for this project.
 * Load list of pokemon from pokeapi and generate a recycler view on that.
 * Add clickEvent to recycler view
 * Generate another activty with details
+* Added types matching color to pokemon games
 * Added images with proper styling like old pokedex, even a blue orb on top!
 
 ## Feature to add:
