@@ -9,13 +9,13 @@ I tried to use the older pokemon series pokedex as inspiration for this project.
 * Generate another activty with details
 * Added types matching color to pokemon games
 * Added images with proper styling like old pokedex, even a blue orb on top!
+* Add cries and map it to the black button image
 
 ## Feature to add:
 * Search on the Recycler View.
 * Pokemon description text
 * Base stats
 * Maybe something related to moves
-* Add cries and map it to the black button image
 
 App Demo (graininess because of bad gif converter, not in app):
 ![Gif](demo.gif)
