@@ -6,6 +6,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Filter;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -109,4 +110,18 @@ public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.PokedexV
     public int getItemCount() {
         return pokemon.size();
     }
+//
+//    Filter getFilter() {
+//        return new Filter() {
+//            @Override
+//            protected FilterResults performFiltering(CharSequence constraint) {
+//                return null;
+//            }
+//
+//            @Override
+//            protected void publishResults(CharSequence constraint, FilterResults results) {
+//
+//            }
+//        }
+//    }
 }

@@ -2,8 +2,10 @@ package com.example.pokedex;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.res.Resources;
 import android.graphics.Color;
 import android.media.Image;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -30,6 +32,7 @@ public class PokemonActivity extends AppCompatActivity {
     private ImageView pokemonImageView;
     String url;
     private RequestQueue requestQueue;
+    private int num;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,6 +58,21 @@ public class PokemonActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+        ImageView soundButton = (ImageView) this.findViewById(R.id.soundbtn);
+        soundButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String s = "a"+num;
+//                Log.i("mytag", "inside" + s);
+                Resources res = getApplicationContext().getResources();
+                int soundID = res.getIdentifier(s, "raw", getApplicationContext().getPackageName());
+                MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(), soundID);
+//                MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.a1);
+                mediaPlayer.start(); // no need to call prepare(); create() does that for you
+            }
+        });
+
 //        nameTextView.setText(name);
 //        numberTextView.setText(String.format("#%03d", number));
     }
@@ -72,6 +90,7 @@ public class PokemonActivity extends AppCompatActivity {
 //                    JSONObject spriteurl = response.getJSONObject("sprites");
 //                    Picasso.get().load(spriteurl.getString("front_shiny"))
                     int idGetResource = response.getInt("id");
+                    num = idGetResource;
                     Picasso.get().load("https://veekun.com/dex/media/pokemon/sugimori/" + idGetResource + ".png")
                             .resize(600, 600)
                             .centerCrop()
