@@ -12,7 +12,7 @@ I tried to use the older pokemon series pokedex as inspiration for this project.
 * Add cries and map it to the black button image
 
 ## Feature to add:
-* Search on the Recycler View.
+* Search on the Recycler View (I'm having trouble doing that, if someone reads this and knows how, please let me know!)
 * Pokemon description text
 * Base stats
 * Maybe something related to moves
